@@ -1,0 +1,30 @@
+.colors{
+    color: darksalmon;
+}
+body{
+    margin: 0;
+}
+h1{
+    font-size: 35px;
+}
+section{
+    display: flex;
+    margin: 40px;
+}
+.width{
+    width: 50%;
+    padding-left: 5%;
+}
+.width img{
+  width: 80%;
+  height: 70%;
+}
+.button{
+    text-decoration: none;
+    background-color: rgba(255, 68, 0, 0.836);
+    padding: 10px 25px;
+    border-radius: 5px;
+   color: white;
+   font-weight: 100;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
