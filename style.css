@@ -4,9 +4,19 @@
 body{
     margin: 0;
 }
+#left-border{
+   border-left: 5px solid #ff6161;
+   border-radius: 3px;
+   
+
+    
+}
 .top-banner{
     font-size: 55px;
     font-family: 'Yeseva One', cursive;
+    padding-left: 10px;
+   
+    
 }
 .flexible-container{
     display: flex;
@@ -82,4 +92,19 @@ body{
     background-size: 200px;
    background-position-x:right;
 
+}
+#bar-title{
+    text-align-last: center;
+}
+.progress-bar{
+    background-color: lightpink;
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    border: lightyellow 5px;
+    border-radius: 20px;
+}
+.footer{
+    background-color: yellow;
+    padding: 20px;
 }
