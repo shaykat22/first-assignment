@@ -6,17 +6,12 @@ body{
 }
 #left-border{
    border-left: 5px solid #ff6161;
-   border-radius: 3px;
-   
-
-    
+   border-radius: 3px;   
 }
 .top-banner{
     font-size: 55px;
     font-family: 'Yeseva One', cursive;
-    padding-left: 10px;
-   
-    
+    padding-left: 10px;  
 }
 .flexible-container{
     display: flex;
@@ -28,7 +23,7 @@ body{
 }
 .width img{
   width: 80%;
-  height: 70%;
+  
 }
 .button{
     text-decoration: none;
@@ -39,10 +34,11 @@ body{
    font-weight: 100;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#second-part-title{
+.second-part-title{
    
      text-align: center;
      font-weight: bold;
+     font-size: 50px;
      
 }
 .illustrator{
@@ -53,58 +49,87 @@ body{
    background-color: #edf5f6;
    border-radius: 10px;
    padding: 10px;
-   margin: 20px 20px;
+   margin: auto;
    width: 360px;
    height: 276px;
    left: 156px;
    top: 723px;
-
+   border: 1px solid #E2E8F0;
+	box-shadow: 0px 2px 20px rgba(22, 21, 21, 0.938);
 }
 .vission{
     background-color: #ffeeee;
     border-radius: 10px;
     padding: 10px;
-    margin: 20px 20px;
+    margin: auto;
     width: 360px;
     height: 276px;
     left: 540px;
     top: 723px;
+    border: 1px solid #E2E8F0;
+	box-shadow: 0px 2px 20px rgba(22, 21, 21, 0.938);
 }
 .goals{
     background-color:#fff4d6 ;
     border-radius: 10px;
     padding: 10px;
-    margin: 20px 20px;
+    margin:auto;
     width: 360px;
     height: 276px;
     left: 924px;
     top: 723px;
+    border: 1px solid #E2E8F0;
+	box-shadow: 0px 2px 20px rgba(22, 21, 21, 0.938);
 }
 .third-banner{
     background-image: url(ilus/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
     background-position-y: 20px;
+    
 }
 .fourth-banner{
     background-image: url(ilus/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
    background-position-x:right;
-
 }
 #bar-title{
+    text-align-last: center;
+}
+#skills{
+    font-size: 60px;
+    font-weight: bold;
     text-align-last: center;
 }
 .progress-bar{
     background-color: lightpink;
     margin: 10px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+    padding-bottom: 30px;
+    padding-left: 25px;
     border: lightyellow 5px;
     border-radius: 20px;
+    border: 1px solid #E2E8F0;
+	box-shadow: 0px 2px 30px rgba(31, 29, 29, 0.527);
+}
+input[type= "text"]{
+    border: none;
+    border-bottom: px solid gray;
+    width: 500px;
+    border: 1px solid #E2E8F0;
+	box-shadow: 0px 2px 20px rgba(22, 5, 5, 0.185);
+}
+.white{
+ color: whitesmoke;
+ text-align: center;
 }
 .footer{
-    background-color: yellow;
+   
     padding: 20px;
+    background:linear-gradient(to right, #00093c, #2d0b00);
+    border-top-left-radius: 125px;
+    color: #fff;
+}
+.lobster{
+    font-family: 'Lobster', cursive; 
 }
